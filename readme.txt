@@ -1,42 +1,45 @@
-so i'm creating a flash card game
+# Flash Card Game
 
-what i want in it is the following:
+## Overview
 
+This flash card game allows users to create decks, add cards, and practice their vocabulary in different languages.
 
+### Decks Page
 
-a page where you can see all the decks
+- View all available decks.
+- **Create a New Deck** button.
 
+### Create New Deck
 
-a button that says "create a new deck", and when you press on it you have the following fields:
-- name of the deck (text field)
+- **Name of the Deck**: [Text Field]
+- **Language for Term** (for TTS): [Select Form]
+- **Language for Definition** (for TTS): [Select Form]
+- **Add Cards** button.
 
-- a select form with languages for a term ( for the tts)
-- a select form with languages for the definition of the term ( for the tts)
+### Deck View
 
-- a button that says - ADD CARDS
+- View all cards in a specific deck.
+- Each card contains speakers for the term and definition.
+- **Three-Dotted Button** for each card:
+  - **Edit**: Modify TTS and text for the card.
+  - **Remove**: Delete the card.
 
-when you click on the deck you can see all the cards:
+### Inside Deck
 
-in each card you can see two speakers:
-- the first speaker is for the term, the second one is for the definition.
+- **Add a Card** button.
+- **Practice** button.
 
-on each card theres gonna be also a three dotted button that is a select button with the following options:
-- Edit, the edit allows to change for that specific card its TTS and the text itself
-- Remove, just removes the card
+### Practice Mode
 
-inside the deck there's also the following buttons on the bottom:
-- Add a card
-- Practice 
+- Clicking on a card reveals the opposite side.
+- Each side has a speaker for audio and an edit button.
+- **Buttons** at the bottom:
+  - **Got it Right**: Moves the card to the right.
+  - **Got it Wrong**: Moves the card to the left.
 
-The practice mode is gonna consist of only seeing the front and clicking on it makes it turn around and see the back
-each side will have a speaker that says the text, and an edit button
-on the bottom there's gonna be two buttons that gonna say the following:
-- Got it right( takes the card to the right and gives the next card(the screen gets a green hue and a nice jingle plays))
-- Got it wrong( takes the card to the left and gives the next card(the screen gets a red hue and a bad jingle plays))
+### Deck Options
 
-a three dotted button on each deck that has:
-- Edit
-- add cards
-- remove 
-
-
+- **Three-Dotted Button** on each deck:
+  - **Edit**: Modify deck details.
+  - **Add Cards**: Add more cards to the deck.
+  - **remove Cards**: removes cards from the deck.
